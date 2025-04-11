@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox alignment="CENTER" spacing="20.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.AppController">
+    <padding>
+        <Insets top="20" right="20" bottom="20" left="20"/>
+    </padding>
+    <Label text="Kalkulator Rekursi"/>
+    <TextField fx:id="inputField" promptText="Masukkan Angka"/>
+    <Button text="Hitung Faktorial" onAction="#hitungFaktorial"/>
+    <Button text="Hitung Fibonacci" onAction="#hitungFibonacci"/>
+    <Label fx:id="resultLabel" text="Hasil akan muncul disini"/>
+</VBox>
